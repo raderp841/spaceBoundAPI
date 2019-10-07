@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 
 namespace spaceBoundAPI.Models
 {
-    public class UpdatedData
+    public class Currencies
     {
         public int Id { get; set; }
-        public string CurrencyCode { get; set; }
         public string CurrencyName { get; set; }
-        public decimal LocalAmount { get; set; }
-        public decimal AmountInUSD { get; set; }
+        public string CurrencyCode { get; set; }
+        public decimal ExchangeRate { get; set; }
+        public DateTime LastUpdatedTime { get; set; }
     }
 }

@@ -10,6 +10,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
+using spaceBoundAPI.Models;
 
 namespace spaceBoundAPI
 {
@@ -26,6 +28,14 @@ namespace spaceBoundAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddCors(o => o.AddDefaultPolicy(p => {
+                p.AllowAnyOrigin();
+                p.AllowAnyHeader();
+                p.AllowCredentials();
+            }));
+
+            services.AddDbContext<spaceBoundAPIContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("spaceBoundAPIContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +52,7 @@ namespace spaceBoundAPI
             }
 
             app.UseHttpsRedirection();
+            app.UseCors();
             app.UseMvc();
         }
     }
