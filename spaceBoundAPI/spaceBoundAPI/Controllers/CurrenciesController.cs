@@ -162,7 +162,7 @@ namespace spaceBoundAPI.Controllers
                 foreach( var rate in rates.rates)
                 {
                     //Problem next line
-                    Currencies c = await _context.Currencies.Include(cur => cur.CurrencyCode == rate.Key).FirstOrDefaultAsync();
+                    Currencies c = await _context.Currencies.FindAsync(rate.Key);
                     c.ExchangeRate = rate.Value;
                 }
                 await _context.SaveChangesAsync();
