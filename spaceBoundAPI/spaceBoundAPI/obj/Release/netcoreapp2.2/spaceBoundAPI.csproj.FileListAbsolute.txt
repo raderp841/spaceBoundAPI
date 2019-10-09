@@ -1,0 +1,14 @@
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\bin\Release\netcoreapp2.2\spaceBoundAPI.deps.json
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\bin\Release\netcoreapp2.2\spaceBoundAPI.runtimeconfig.json
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\bin\Release\netcoreapp2.2\spaceBoundAPI.runtimeconfig.dev.json
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\bin\Release\netcoreapp2.2\spaceBoundAPI.dll
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\bin\Release\netcoreapp2.2\spaceBoundAPI.pdb
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\obj\Release\netcoreapp2.2\spaceBoundAPI.csprojAssemblyReference.cache
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\obj\Release\netcoreapp2.2\spaceBoundAPI.csproj.CoreCompileInputs.cache
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\obj\Release\netcoreapp2.2\spaceBoundAPI.RazorAssemblyInfo.cache
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\obj\Release\netcoreapp2.2\spaceBoundAPI.RazorAssemblyInfo.cs
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\obj\Release\netcoreapp2.2\spaceBoundAPI.AssemblyInfoInputs.cache
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\obj\Release\netcoreapp2.2\spaceBoundAPI.AssemblyInfo.cs
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\obj\Release\netcoreapp2.2\spaceBoundAPI.RazorTargetAssemblyInfo.cache
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\obj\Release\netcoreapp2.2\spaceBoundAPI.dll
+C:\Users\rader\Desktop\Projects\APIs\spaceBoundAPI\spaceBoundAPI\spaceBoundAPI\obj\Release\netcoreapp2.2\spaceBoundAPI.pdb
